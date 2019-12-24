@@ -1,0 +1,12 @@
+body {
+  background-color: #f0f5f9;
+  font-family: Ubuntu, sans-serif;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #52616b;
+  border-width: 5px;
+  width: 50%;
+}
