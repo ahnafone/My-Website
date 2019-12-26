@@ -1,12 +1,85 @@
-body {
-  background-color: #f0f5f9;
-  font-family: Ubuntu, sans-serif;
-}
 
+/* Tag Layouts */
+
+a {
+  color: #1e2022;
+}
+body {
+  margin: 0;
+  font-family: Ubuntu, sans-serif;
+  color: #52616b;
+  background-color: #f0f5f9;
+  text-align: center;
+}
 hr {
   border-style: none;
   border-top-style: dotted;
   border-color: #52616b;
   border-width: 5px;
-  width: 50%;
+  display: block;
+  width: 30%;
+  margin: 0 auto 0 auto;
+}
+
+/* Class Layouts */
+
+.inline-block-element {
+  display: inline-block;
+  margin: 0;
+  padding: 20px;
+}
+.block {
+  display: block;
+}
+.basic-layout {
+  padding: 20px;
+  background-color: #c9d6df;
+}
+.header-layout {
+  text-align: right;
+  padding: 20px;
+  background-color: #c9d6df;
+  color: #c9d6df;
+}
+
+.body-layout {
+  width: 70%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.float-left {
+  float: left;
+  margin-right: 60px;
+}
+.float-right {
+  float: right;
+  margin-left: 60px;
+}
+
+.footer-layout {
+  text-align: center;
+  background-color: #1e2022;
+  color: #f0f5f9;
+  padding: 10px 0 10px 0;
+}
+.footer-link {
+  color: #f0f5f9;
+}
+.circular-img {
+  border-radius: 50%;
+}
+.center-img {
+  display: block;
+  margin: 50px auto 50px auto;
+  width: 15%;
+}
+.text-layout {
+  width: 40%;
+}
+.center-text {
+  text-align: center;
+}
+.shift-right{
+  float: right;
 }
