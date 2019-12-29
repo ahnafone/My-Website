@@ -1,85 +1,119 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>About Me</title>
 
-<head>
-  <meta charset="utf-8">
-  <title>Website of Ahnaf Ahmed</title>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="icon" href="favicon.ico">
 
-  <link rel="stylesheet" href="css/styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
-  <link rel="icon" href="favicon.ico">
-</head>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4375fa6ff2.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
 
-<body>
+    <!-- Header -->
+    <section class="container-fluid header-layout">
 
-  <div class="header-layout">
-    <a href="appDev.html"><p class="inline-block-element">Education</p></a>
-    <a href="about-me.html"><p class="inline-block-element">Work</p></a>
-    <a href="contact-me.html"><p class="inline-block-element">Contact</p></a>
-  </div>
+      <nav class="navbar navbar-expand-lg">
+        <img src="images/cox bazzar.jpg" alt="" class="brand-img">
 
-  <div class="basic-layout">
-    <img src="images/jasper.jpg" alt="" class="circular-img center-img">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <h1>Ahnaf Ahmed</h1>
-    <p><em>Computer Science Student & Web Enthusiast!</em></p>
-    <p class="text-layout center-img">Hello world, and welcome to my website! I am an international student studying for my Bachelor’s degree at the University of Alberta. I am
-studying computer science, and I am proficient with the languages C++, Python, and Java. I have over two years of
-experience coding in these languages. On the side, I have learned about mobile development, and some web design like the one you are seeing.
-Feel free to look around!</p>
-  </div>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+            <li class="nav-item"><a class="nav-link" href="appDev.html">Education</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact-me.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
 
-  <hr>
+      <div class="row">
+        <div class="col header-text">
+          <h3>Hello World.</h3>
+          <h4>I'm Ahnaf.</h4>
+        </div>
+        <div class="col">
+          <img src="images/jasper.jpg" alt="" class="header-img">
+        </div>
+      </div>
 
-  <div class="body-layout">
-    <img src="images/ualberta.png" alt="" class="float-left" width="200px">
+    </section>
 
-    <h3>Education and Courses</h3>
-    <ul>
-      <li><strong>University of Alberta</strong> <em>Bachelor of Science</em> in Computer Science (2017-present)</li>
-      <li>University Courses Completed: Software Engineering, Algorithms, Software Architechture, Databases</li>
-      <li>Udemy Courses Completed:
-        <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/">Web Development Bootcamp</a>,
-        <a href="https://www.udemy.com/course/flutter-bootcamp-with-dart/">Flutter Bootcamp</a>
-      </li>
-    </ul>
+    <section class="container-fluid body-layout">
 
-  </div>
+      <h3 class="body-title">A few things about me....</h3>
 
-  <div class="body-layout">
-    <img src="images/skills.jpg" alt="" class="float-right circular-img" width="200px">
+      <div class="row">
+        <div class="col-3">
+          <img src="images/ualberta.png" alt="" width="200px">
+        </div>
+        <div class="col">
+          <h4 class="body-text">I'm a Computer Science Student</h4>
+          <p class="body-text">Doing a Bachelor's Degree at the University of Alberta, I've mastered the
+          basics of Software Engineering and Design Patterns, Algorithms, Computer Architecture,
+           and Database Systems.</p>
+        </div>
+      </div>
 
-    <h3>My Skills</h3>
-    <ul>
-      <li>Programming Languages (3+ years of experience): C++, Java, Python</li>
-      <li>Mobile Development (2+ years of experience): Android Studio (XML and Java), Flutter (Dart) <em><a href="appDev.html">(see more)</a></em></li>
-      <li>Web Development (less than a year of experience): HTML, CSS, Javascript</li>
-      <li>Other Stuff I Know: UML, 3D modeling (in Sketchup) and 3D printing, Apache Spark</li>
-      <li>Unrelated Stuff I Know: Girls, almost every single smartphone brand out there right now, how to hack your neighbours wifi, how to clean a meat grinder</li>
-    </ul>
-  </div>
+      <a href="https://github.com/ahnafone"><button type="button" class="btn btn-outline-danger btn-lg">See On Github</button></a>
 
-  <div class="body-layout">
-    <img src="images/work.jpg" alt="" class="float-left circular-img" width="200px">
+      <hr>
 
-    <h3 class="body-header-right">My Work Experience</h3>
-    <ul class="body-text-right">
-      <li><strong>Meat Department Associate</strong> at Real Canadian Superstore <em>(09/2019 to present)</em></li>
-      <li><strong>Sales Associate</strong> (Volunteer) at <a href="https://www.facebook.com/alifgroupltd/">Alif Halal Meat</a> <em>(temporary 3 week employment on 06/2019)</em></li>
-      <li><strong>Overnight Fulfillment Associate</strong> at Walmart Inc. <em>(08/2018 to 09/2018)</em></li>
-      <li><strong>Crew Member</strong> at McDonalds <em>(10/2017 to 03/2018)</em></li>
-      <li><strong>Research Intern</strong> at <a href="https://www.bracu.ac.bd">BRAC University</a> <em>(06/2016 to 07/2016)</em></li>
-    </ul>
-  </div>
+      <div class="row">
+        <div class="col">
+          <h4 class="body-text">I'm an App Developer</h4>
+          <p class="body-text">I've worked with Android Studio for over 50 hours,
+          and I've created a few projects. I've even started learning Flutter
+          so that I can create apps for my Apple using girlfriend.</p>
+        </div>
+        <div class="col-3">
+          <img src="images/android.jpg" alt="" class="body-img">
+        </div>
+      </div>
 
-  <div class="footer-layout">
-    <p class="inline-block-element"><a class="footer-link" href="mailto:ahnafon3@gmail.com">Mail</a></p>
-    <p class="inline-block-element"><a class="footer-link" href="https://github.com/ahnafone">Github</a></p>
-    <p class="inline-block-element"><a class="footer-link" href="https://www.linkedin.com/in/ahnav/">LinkedIn</a></p>
+      <a href="https://github.com/ahnafone"><button type="button" class="btn btn-outline-danger btn-lg">See On Github</button></a>
 
-    <p>© 2019 <a class="footer-link" href="https://ahnafone.github.io/My-Website/">Ahnaf Ahmed</a>. All rights reserved.</p>
-  </div>
+      <hr>
 
-</body>
+      <div class="row">
+        <div class="col-3">
+          <img src="images/html.jpg" alt="" class="body-img">
+        </div>
+        <div class="col">
+          <h4 class="body-text">I'm a Web Developer</h4>
+          <p class="body-text">Using the Full Stack Developer course on Udemy,
+          I have created this website, utilizing the power of Bootstrap and JavaScript.</p>
+        </div>
+      </div>
 
+      <a href="https://github.com/ahnafone"><button type="button" class="btn btn-outline-danger btn-lg">See On Github</button></a>
+
+    </section>
+
+    <section class="footer-layout">
+
+      <div class="row footer-row">
+        <div class="col">
+          <a class="footer-link" href="mailto:ahnafon3@gmail.com"><i class="fas fa-envelope fa-2x"></i></a>
+        </div>
+        <div class="col">
+          <a class="footer-link" href="https://github.com/ahnafone"><i class="fab fa-github fa-2x"></i></a>
+        </div>
+        <div class="col">
+          <a class="footer-link" href="https://www.linkedin.com/in/ahnav/"><i class="fab fa-linkedin fa-2x"></i></a>
+        </div>
+      </div>
+
+      <p class="copyright">© 2019 <a class="footer-link" href="https://ahnafone.github.io/My-Website/">Ahnaf Ahmed</a>. All rights reserved.</p>
+    </section>
+
+  </body>
 </html>

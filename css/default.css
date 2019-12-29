@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 1.1rem;
+  color: #eeeeee;
+  background-color: #393e46;
+  text-align: center;
+  line-height: 2;
+}
+button {
+  margin: 50px auto;
+}
+h3 {
+  font-family: Ubuntu, sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  color: #bf0019;
+}
+h4 {
+  color: #fa163f;
+  font-size: 2rem;
+  font-weight: bold;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #52616b;
+  border-width: 10px;
+  display: block;
+  width: 5%;
+  margin: 100px auto;
+}
+
+/* header */
+.header-layout {
+  padding: 3% 15% 7% 15%;
+  background-color: #222831;
+  text-align: center;
+}
+.brand-img {
+  border-radius: 50%;
+  width: 40px;
+  margin-right: 20px;
+}
+.navbar {
+  padding-bottom: 4.5rem;
+}
+.navbar-brand {
+  color: #eeeeee;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 1.2rem;
+  color: #eeeeee;
+}
+.header-img {
+  border-radius: 50%;
+  width: 300px;
+}
+.header-text {
+  margin: auto;
+}
+
+/* body */
+.body-layout {
+  padding: 3% 15%;
+  text-align: center;
+}
+.body-title {
+  margin: 100px auto;
+}
+.body-text {
+  text-align: left;
+  width: 80%;
+  margin: 20px auto 40px auto;
+}
+.body-img {
+  border-radius: 50%;
+  width: 200px;
+}
+
+/* footer */
+.footer-layout {
+  color: #222831;
+  background-color: #eeeeee;
+  padding: 1% 0;
+}
+.footer-link {
+  color: #222831;
+}
+.footer-row {
+  margin: 10px 40%;
+}
+.copyright {
+  font-size: 0.75rem;
+  margin: 10px auto;
+}

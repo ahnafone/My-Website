@@ -7,9 +7,17 @@ a {
 body {
   margin: 0;
   font-family: Ubuntu, sans-serif;
+  font-size: 1.1rem;
   color: #52616b;
   background-color: #f0f5f9;
   text-align: center;
+}
+h1{
+  font-size: 2.5rem;
+}
+p {
+  font-size: 1.1rem;
+  line-height: 2;
 }
 hr {
   border-style: none;
@@ -41,20 +49,23 @@ hr {
   background-color: #c9d6df;
   color: #c9d6df;
 }
-
 .body-layout {
   width: 70%;
   margin: 100px auto 100px auto;
   text-align: left;
   line-height: 2;
 }
-.float-left {
+.body-img-uni {
   float: left;
-  margin-right: 60px;
+  margin: auto 60px;
 }
-.float-right {
+.body-img-skills {
   float: right;
-  margin-left: 60px;
+  margin: 45px 60px;
+}
+.body-img-work {
+  float: left;
+  margin: 25px 60px;
 }
 
 .footer-layout {
@@ -71,7 +82,7 @@ hr {
 }
 .center-img {
   display: block;
-  margin: 50px auto 50px auto;
+  margin: 60px auto;
   width: 15%;
 }
 .text-layout {
@@ -80,6 +91,14 @@ hr {
 .center-text {
   text-align: center;
 }
-.shift-right{
-  float: right;
+.skills-header {
+  margin-left: 40px;
+}
+.contact-img {
+  height: 50px;
+  margin: 50px 10px 50px 10px;
+  border-radius: 5%;
+}
+.copyright {
+  font-size: 0.75rem;
 }
