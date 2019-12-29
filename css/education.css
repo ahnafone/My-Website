@@ -1,0 +1,60 @@
+body {
+  font-family: 'Ubuntu Mono', monospace;
+  line-height: 2;
+}
+h1, h2, h4 {
+  font-weight: bold;
+  font-family: Ubuntu, sans-serif;
+}
+img {
+  height: 400px;
+  margin: 2%;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #52616b;
+  border-width: 10px;
+  display: block;
+  width: 5%;
+  margin: 100px auto;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+.center-text {
+  text-align: center;
+}
+.white-text {
+  color: white;
+}
+.black-text {
+  color: black;
+}
+
+/* header */
+
+.header-layout {
+  background-color: #4592af;
+  color: white;
+}
+
+/* body */
+
+.body-layout {
+  background-color: #79c2e1;
+  color: white;
+}
+.body-title {
+  margin: 0 auto 7% auto;
+}
+.moodtracker {
+  margin: 3% 0;
+}
+.body-text {
+  margin: 3% 15%;
+}
+.carousel-item {
+  text-align: center;
+}
