@@ -1,0 +1,18 @@
+body {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 1.1rem;
+  color: #52616b;
+  background-color: #f0f5f9;
+  text-align: center;
+  line-height: 2;
+}
+img {
+  width: 200px;
+}
+
+.row {
+  margin: 3% 27%;
+}
+.body-layout {
+  padding: 3% 15%;
+}
